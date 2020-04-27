@@ -1,0 +1,63 @@
+import styled from 'styled-components';
+
+export const Card = styled.div`
+	border-radius: 4px;
+	background: #ffffff;
+	min-height: 400px;
+	max-width: 900px;
+
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+`;
+export const FlexContainer = styled.div`
+	display: flex;
+	flex: ${(props) => (props.flex ? props.flex : 1)};
+`;
+
+export const FormContainer = styled.div`
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`;
+
+export const SideCard = styled.div`
+	width: 100%;
+	background: #2a2a72;
+	font-size: 36px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-weight: 320;
+`;
+// background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 70%);
+
+// border-radius: 4px;
+
+export const LoginFormLayout = styled.div`
+	background: #ffffff;
+	position: relative;
+	z-index: 1;
+	background: #ffffff;
+	padding: 45px;
+	text-align: center;
+`;
+
+// Create a Title component that'll render an <h1> tag with some styles
+export const Title = styled.h1`
+	font-size: 1.5em;
+	text-align: center;
+	color: palevioletred;
+`;
+
+// Create a Wrapper component that'll render a <section> tag with some styles
+export const Wrapper = styled.section`
+	padding: 4em;
+	background: papayawhip;
+`;

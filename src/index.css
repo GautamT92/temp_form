@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.ant-layout {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.ant-form {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.ant-form-item-label {
+	font-size: 5px;
+}
+.ant-form-item {
+	font-size: 20px;
+}
+.ant-form-item-control {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	/* border-radius: 10px; */
+}
+.ant-form-item-control-input-content .ant-input {
+	border: 0;
+	border-bottom: solid 1.4px #8693ab;
+	/* border-radius: 10px; */
+}
+
+.ant-form-vertical .ant-form-item-label > label {
+	margin: 0;
+	font-size: 16px;
+}
+
+.ant-form-item-explain {
+	display: flex;
+	justify-content: flex-start;
+}

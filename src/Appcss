@@ -1,0 +1,40 @@
+.App {
+	display: flex;
+	flex: 1;
+}
+.Layout {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	/* overflow: scroll; */
+}
+.side-nav {
+	min-width: 300px;
+	flex: 2;
+	background-color: antiquewhite;
+}
+.form {
+	flex: 4;
+	overflow: scroll;
+}
+
+.nav-item {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	min-height: 4em;
+	border-bottom: solid 1.3px;
+	padding-left: 30px;
+	cursor: pointer;
+	flex-direction: column;
+}
+
+.form-title {
+	display: flex;
+	flex-direction: 'column';
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 30px;
+	background-color: yellow;
+	padding: 10px 0 10px 10px;
+}
